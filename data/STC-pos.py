@@ -82,19 +82,6 @@ for p, r in zip(post, response):
 
 cPickle.dump(pos_tag_dic, open(code_path + "/" + r'STC_data\pos_tag_dic.pkl', 'wb'))
 
-print "statistics of the STC dataset"
-print "length of pos tagset : ", str(len(pos_tag_dic))
 
-#most 5 frequent words in every tags
-for t in pos_tag_dic:
-    sorted_taglist = sorted(pos_tag_dic[t].iteritems(), key = lambda d:d[1], reverse = True)
-    print "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-    print t
-    print "most 5 frequent words"
-    for w, n in sorted_taglist[0:5]:
-        print w, ":" ,str(n), "times"
-
-
-print "done"
 
 
