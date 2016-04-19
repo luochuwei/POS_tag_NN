@@ -3,7 +3,7 @@
 #
 #    Author: Chuwei Luo
 #    Email: luochuwei@gmail.com
-#    Date: 18/04/2016
+#    Date: 19/04/2016
 #    Usage: process stc data and get the pos tag
 #
 #######################################################
