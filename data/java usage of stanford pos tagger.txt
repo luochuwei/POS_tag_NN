@@ -1,0 +1,1 @@
+D:\stanford\stanford-postagger-full-2015-12-09>java -mx1024m -cp "stanford-postagger.jar;lib/*" edu.stanford.nlp.tagger.maxent.MaxentTagger -model "models\chinese-distsim.tagger" -textFile "new_train.post" -outputFormatOptions slashTags -tagSeparator # > post_tag
