@@ -67,4 +67,4 @@ plt.ylabel("class of words")
 autolabel(p2, ax2)
 
 plt.show()
-Fig.savefig("visualizations.png", format = "png")
+Fig.savefig("raw-data-visualizations.png", format = "png")
