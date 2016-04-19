@@ -50,7 +50,7 @@ for t in pos_tag_dic:
     print t
     print "most 5 frequent words"
     for w, n in sorted_taglist[0:5]:
-        print w, ":" ,str(n), "times"
+        print w.decode("utf-8"), ":" ,str(n), "times"
 
 
 print "done"
