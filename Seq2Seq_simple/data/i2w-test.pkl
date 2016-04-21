@@ -1,0 +1,16 @@
+(dp1
+I0
+S'a'
+sI1
+S'c'
+sI2
+S'<eoss>'
+p2
+sI3
+S'b'
+sI4
+S'd'
+sI5
+S'<UNknown>'
+p3
+s.
