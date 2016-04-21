@@ -1,0 +1,3 @@
+a#NN d#VV
+d#VV a#NN d#VV
+b#CD c#JJ d#VV a#NN
